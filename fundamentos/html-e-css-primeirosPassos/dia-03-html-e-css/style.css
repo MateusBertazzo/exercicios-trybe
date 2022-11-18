@@ -26,7 +26,10 @@ p {
 .section-titlle{
     font-weight: 600;
     line-height: 42px;
-    font-size: 28px;
+    font-size: 35px;
+    text-align: center;
+    color: #0a7e51;
+    margin-top: 30px;
 
 }
 
@@ -35,13 +38,30 @@ p {
     left: 200px;
 }
 
-.button{
-    color: white;
-    background-color: green;
+.footer {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
     border-radius: 10px;
     padding: 15px 30px;
     text-decoration: none;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
 
+}
+.footer a{
+    text-decoration: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 2rem;
+}
+
+.footer h4{
+    width: 100%;
+    padding: 40px 20px;
+    align-items: center;
 }
 
 .header {
@@ -62,3 +82,35 @@ p {
     max-width: 75%;
 }
 
+.student {
+  padding: 30px 70px 90px 70px;
+  width: 50%;
+  margin: auto;
+  
+}
+.student-conteiner {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;  
+}
+.learning{
+    padding: 30px 70px;
+    background-color: wheat;
+    min-height: 350px;
+}
+
+.learning-left{
+    float: left;
+    max-width: 40%;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.learning-right{
+    float: right;
+    width: 400px;
+    margin-top: 20px;
+}

@@ -11,6 +11,9 @@ p {
     font-weight: 600;
     line-height: 55px;
     font-size: 45px;
+    margin: 0;
+    padding: 20px;
+    background-color: red;
 }
 
 .section-titlle{
@@ -22,7 +25,7 @@ p {
 
 .picture {
     border-radius: 100%;
-
+    left: 200px;
 }
 
 .button{

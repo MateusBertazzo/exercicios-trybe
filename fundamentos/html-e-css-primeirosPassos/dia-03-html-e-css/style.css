@@ -13,7 +13,6 @@ p {
     font-size: 45px;
     margin: 0;
     padding: 20px;
-    background-color: red;
 }
 
 .section-titlle{
@@ -35,4 +34,12 @@ p {
     padding: 15px 30px;
     text-decoration: none;
 
+}
+
+.header {
+    background-image: url(5d4c18a28620ae56f733b01a_hero-image.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: 50% 25%;
+    padding: 20px;
 }

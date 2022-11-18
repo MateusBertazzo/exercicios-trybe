@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     font-family: sans-serif;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     color: #475550;
 }
 .hero-tittle{
@@ -13,6 +20,7 @@ p {
     font-size: 45px;
     margin: 0;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .section-titlle{
@@ -39,7 +47,18 @@ p {
 .header {
     background-image: url(5d4c18a28620ae56f733b01a_hero-image.jpg);
     background-size: cover;
-    height: 600px;
+    height: 700px;
+    width: 100%;
     background-position: 50% 25%;
     padding: 20px;
 }
+
+.header-content{
+    max-width: 60%;
+    margin-left: 15px;
+}
+
+.headedr-text {
+    max-width: 75%;
+}
+

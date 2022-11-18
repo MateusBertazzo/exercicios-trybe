@@ -1,1 +1,1 @@
-# aula-exercicio-trybe
+# exercicios-trybe

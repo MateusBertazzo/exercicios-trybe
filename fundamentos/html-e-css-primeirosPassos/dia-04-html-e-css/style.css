@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #919090;
+}
+
+#cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B8B6B6;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3D2314;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 80px;
+    padding-top: 45px;
+    padding-right: 25px;
+    list-style: none;
+}
+
+.nav-links ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3D2314;
+}
+
+.nav-links ul li a:hover {
+    color: black;
+}
+

@@ -1,0 +1,130 @@
+* { font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D1A083;
+}
+/* CABEÇALHO */
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B8B6B6;
+}
+
+.title {
+    color: #3D2314;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 80px;
+    padding-top: 45px;
+    padding-right: 25px;
+    list-style: none;
+}
+
+.nav-links ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3D2314;
+}
+
+.nav-links ul li a:hover {
+    color: black;
+}
+/* MAIN */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-main{
+    width: 60%;
+}
+
+.content-main h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 38px;
+    color: #3D2314;
+    margin-top: 15px;
+}
+
+.content-vision h3 {
+    margin-left: 20px;
+    color: #3D2314;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content-vision p {
+    margin-left: 25px;
+    text-align: left;
+    color: #383838;
+    font-size: 20px;
+}
+
+.main-aside {
+    border-style: solid;
+    background-color: #B8B6B6;
+    padding: 40px;
+    margin-top: 40px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+
+.family-cientifc img {
+    justify-content: left;
+}
+
+.family-cientifc p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.family-cientifc h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.family-cientifc ul li{
+    margin-left: 15px;
+}
+
+/* SECTION 02 */
+
+.punch {
+    background-color: #B8B6B6;
+    border-style: solid;
+    text-align: center;
+}
+
+.punch-subtitle {
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: #3D2314;
+}
+
+.stomatopoda-img {
+    width: 400px;
+}
+
+.punch-paragrafo {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+

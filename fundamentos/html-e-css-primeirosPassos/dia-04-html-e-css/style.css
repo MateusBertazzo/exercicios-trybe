@@ -1,4 +1,4 @@
-* {
+* { font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -6,15 +6,14 @@
 body {
     background-color: #919090;
 }
-
-#cabeçalho {
+/* CABEÇALHO */
+.cabeçalho {
     display: flex;
     justify-content: space-between;
     background-color: #B8B6B6;
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
     color: #3D2314;
     font-size: 20px;
     font-weight: bolder;
@@ -39,4 +38,19 @@ body {
 .nav-links ul li a:hover {
     color: black;
 }
+/* MAIN */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-vision h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #D1A083;
+    margin-top: 15px;
+}
+
 

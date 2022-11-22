@@ -106,12 +106,14 @@ body {
 .punch {
     padding: 80px;
     background-color: #B8B6B6;
-    border-style: solid;
+    border-style: solid;    
+}
+
+.punch-conteiner {
     text-align: center;
 }
 
 .punch-subtitle {
-    text-align: center;
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -120,7 +122,7 @@ body {
 }
 
 .stomatopoda-img {
-    width: 400px;
+    width: 20rem;
 }
 
 .punch-paragrafo {
@@ -128,7 +130,6 @@ body {
     margin-bottom: 100px;
     margin-left: 30px;
     font-size: 20px;
-    text-align: center;
 }
 
 /* SECTION 02 */

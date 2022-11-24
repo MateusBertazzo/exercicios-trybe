@@ -4,15 +4,15 @@ let anguloC = 15;
 
 let somaAngulo = anguloA + anguloB + anguloC;
 
-let somaAnguloPositive = anguloA > 0 && anguloB > 0 && anguloC > 0
 
-if (somaAnguloPositive) {
-   if (somaAngulo == 180) {
+if (somaAngulo === 180) {
     console.log(true)
-   } else {
-    console.log(false)
-   }
-
+} else if (anguloA < 0) {
+    console.log("Erro dsa")
+} else if (anguloB < 0) {
+    console.log("Erro gfd")
+} else if (anguloC < 0) {
+    console.log("Erro fds")
 } else {
-    console.log("Erro")
+    console.log(false)
 }

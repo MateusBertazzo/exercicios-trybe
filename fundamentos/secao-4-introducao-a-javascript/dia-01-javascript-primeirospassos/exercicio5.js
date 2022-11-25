@@ -5,14 +5,14 @@ let anguloC = 15;
 let somaAngulo = anguloA + anguloB + anguloC;
 
 
-if (somaAngulo === 180) {
+if (somaAngulo == 180) {
     console.log(true)
 } else if (anguloA < 0) {
-    console.log("Erro dsa")
+    console.log("Erro")
 } else if (anguloB < 0) {
-    console.log("Erro gfd")
+    console.log("Erro")
 } else if (anguloC < 0) {
-    console.log("Erro fds")
+    console.log("Erro")
 } else {
     console.log(false)
 }

@@ -1,32 +1,39 @@
-let xadres = "torre"
+// Utilize switch/case para escrever um código que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+// Como desafio, escreva um código para funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
 
+// Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+
+// Se a peça passada for inválida, o código deve retornar uma mensagem de erro.
+
+// Exemplo: bishop (bispo) -> diagonals (diagonais)
+
+let xadres = "TORRE"
 
 switch (xadres.toLowerCase()) {
-    case "rei":
-    console.log("uma casa em qualquer direção")
+  case "rei":
+    console.log("uma casa pra qualquer direção");
+    break;
+
+  case "rainha":
+    console.log("Quantas casas quiser, qualquer direção");
+    break;
+
+  case "torre":
+    console.log("Vertical e Horizontal, quantas casas quiser");
     break
 
-    case "bispo":
-    console.log("diagonal")
+  case "peão":
+    console.log("Primeira vez duas casa pra frente, depois só uma")
+    break;
+
+  case "bispo":
+    console.log("quantas casas quiser, diagonal")
     break
 
-    case "peao":
-    console.log("uma casa diagonal")
+  case "cavalo":
+    console.log("3 casas em L")
     break
 
-    case "torre":
-    console.log("vertical e horizontal") 
-    break
-    
-    case "rainha":
-    console.log("qualquer direção e quntas casas quiser")
-    break
-    
-    case "cavalo":
-    console.log("movimento em L, 3 casas total")
-    break
-    
-    default:
-        console.log("Erro, peça inválida")
-    break
-};
+  default:
+    console.log("Erro, peça inválida")
+}

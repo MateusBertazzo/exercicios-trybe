@@ -4,9 +4,9 @@ const c = 32
 
 
 if (a > b && a > c){
-    console.log("A é o maior")
+    console.log("A é  maior");
 } else if (b > a && b > c) {
-    console.log("B é o maior")
+    console.log("B é  maior");
 } else {
-    console.log("C é o maior")
+    console.log("C é  maior");
 }

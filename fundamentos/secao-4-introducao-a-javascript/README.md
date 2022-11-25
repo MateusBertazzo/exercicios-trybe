@@ -1,0 +1,1 @@
+Aqui irei aprender os conceitos Básico de JavaScript e como usá-lo!!

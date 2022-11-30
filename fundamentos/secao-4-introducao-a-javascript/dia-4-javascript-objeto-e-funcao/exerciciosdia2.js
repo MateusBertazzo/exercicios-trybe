@@ -15,11 +15,11 @@ let info2 = {
 };
 
 for(let properties in info) {
-if (properties === 'recorrente' && info[properties] === 'Sim' && info2[properties] === 'Sim'){
-  console.log('Ambos Recorrentes')
-} else {
-  console.log(info[properties]) + ' e ' + info2[properties]
-}
+  if (properties === 'recorrente' && info[properties] === 'Sim' && info2[properties] === 'Sim'){
+    console.log('Ambos Recorrentes')
+  } else {
+    console.log(info[properties]) + ' e ' + info2[properties]
+  }
 }
 
 

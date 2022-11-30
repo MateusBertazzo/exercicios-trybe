@@ -1,7 +1,7 @@
-let num = 1;
+
 let fatorial = 10;
 
-for(index = fatorial; index > 0; index -= 1 ){
-  num *= index;
+for(let index = fatorial -1; index > 0; index -= 1 ){
+  fatorial *= index;
+  console.log(fatorial)
 }
-console.log(num)

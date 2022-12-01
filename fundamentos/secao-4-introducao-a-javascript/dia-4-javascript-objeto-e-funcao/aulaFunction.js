@@ -30,7 +30,7 @@
 
 function generateArray (character,number,) {
   let charactersArray = []
-  for(let index = 0; index < number;) {
+  for(let index = 0; index < number; index +=1 ) {
     
   }
 }

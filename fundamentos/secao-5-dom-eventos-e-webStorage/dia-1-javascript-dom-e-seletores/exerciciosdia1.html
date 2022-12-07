@@ -48,11 +48,36 @@
         stringTeste.innerHTML = string
       }
 
-      function mudaCor (color) {
+      function mudaCorRgb (color) {
         let changeColor = document.getElementsByClassName('main-content')[0];
         changeColor.style.backgroundColor = color;
       }
-      mudaCor('rgb(76,164,109)')
+      mudaCorRgb('rgb(76,164,109)')
+
+      function mudaCor (color) {
+        let changeColor = document.getElementsByClassName('center-content')[0];
+        changeColor.style.backgroundColor = color;
+      }
+      mudaCor('white')
+
+      function changeTitle(texto) {
+        let title = document.querySelector('.title');
+        title.innerHTML = texto
+      }
+      changeTitle('Java Script')
+
+      function changeMaiusculo(param) {
+        let paragrafo = document.getElementsByTagName('p')[0];
+        paragrafo.innerHTML = param
+      }
+      changeMaiusculo('TEXTO PADRÃO DO NOSSO SITE')
+
+      function loopP () {
+        let exibeP = document.getElementsByTagName('p');
+        for (index = 0; index < exibeP; index += 1) {
+          console.log(exibeP[index].innerHTML);
+        }
+      } loopP()
     </script>
   </body>
 </html>

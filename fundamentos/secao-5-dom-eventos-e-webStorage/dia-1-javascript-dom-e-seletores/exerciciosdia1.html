@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      // Seu código aqui 
+      function mudaTexto (string) {
+        let stringTeste = document.getElementsByTagName('p')[1];
+        stringTeste.innerHTML = string
+      }
+
+      function mudaCorRgb (color) {
+        let changeColor = document.getElementsByClassName('main-content')[0];
+        changeColor.style.backgroundColor = color;
+      }
+      mudaCorRgb('rgb(76,164,109)')
+
+      function mudaCor (color) {
+        let changeColor = document.getElementsByClassName('center-content')[0];
+        changeColor.style.backgroundColor = color;
+      }
+      mudaCor('white')
+
+      function changeTitle(texto) {
+        let title = document.querySelector('.title');
+        title.innerHTML = texto
+      }
+      changeTitle('Java Script')
+
+      function changeMaiusculo(param) {
+        let paragrafo = document.getElementsByTagName('p')[0];
+        paragrafo.innerHTML = param
+      }
+      changeMaiusculo('TEXTO PADRÃO DO NOSSO SITE')
+
+      function loopP () {
+        let exibeP = document.getElementsByTagName('p');
+        for (index = 0; index < exibeP; index += 1) {
+          console.log(exibeP[index].innerHTML);
+        }
+      } loopP()
+    </script>
+  </body>
+</html>

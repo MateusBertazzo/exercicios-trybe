@@ -69,6 +69,52 @@
       const elementSection = document.createElement('section');
       elementSection.className = 'center-content';
       elementMain.appendChild(elementSection);
+
+      const elementP = document.createElement('p');
+      elementP.innerText = 'Lorem ipsum dolor sit amet. Et autem tempora et autem voluptate est dolores labore? Et distinctio doloremque in distinctio reiciendis non ratione aliquid ex dolorum enim ab facilis voluptatem. Et odit laborum est numquam voluptatem et eaque perspiciatis a enim officiis At fugiat rerum id asperiores voluptates. Est internos excepturi ad alias corrupti ut iusto omnis aut assumenda velit.';
+      elementSection.appendChild(elementP);
+
+      const elementLeftContent = document.createElement('section');
+      elementLeftContent.className = 'left-content';
+      elementMain.appendChild(elementLeftContent);
+
+      const elementRightContent = document.createElement('section');
+      elementRightContent.className = 'right-content';
+      elementMain.appendChild(elementRightContent);
+
+      const elementImg = document.createElement('img');
+      elementImg.className = 'small-image';
+      elementImg.src = 'https://picsum.photos/200';
+      elementLeftContent.appendChild(elementImg);
+
+      const elementUl = document.createElement('ul');
+      elementRightContent.appendChild(elementUl);
+
+      const arrayNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez']
+
+      for(let index = 0; index < arrayNumbers.length; index+= 1){
+        const elementLi = document.createElement('li');
+        elementLi.innerText = arrayNumbers[index];
+        elementUl.appendChild(elementLi);
+      };
+
+      for (let index = 0; index < 3; index += 1) {
+        const elementH3 = document.createElement('h3');
+        elementH3.innerHTML = `Show!! ${index}`;
+        elementMain.appendChild(elementH3);
+      }
+
+      const title = document.querySelector('h1');
+      title.className = 'title';
+
+      const description = document.getElementsByTagName('h3');
+      for (index = 0; index < 3; index += 1) {
+        description[index].className = 'description'; 
+      }
+
+      
+      
     </script>
   </body>
 </html>

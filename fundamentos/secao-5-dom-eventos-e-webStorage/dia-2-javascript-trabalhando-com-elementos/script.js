@@ -1,16 +1,13 @@
-const ondeEuEstou = document.getElementById("elementoOndeVoceEsta");
+// const ondeEuEstou = document.getElementById("elementoOndeVoceEsta");
 
-const pai =  ondeEuEstou.parentElement;
-pai.style.color = 'red';
+// const pai =  ondeEuEstou.parentElement;
+// pai.style.color = 'red';
 
-console.log(pai)
+// console.log(pai)
 
-const corPrimeiroFilho = document.getElementById('primeiroFilho');
-corPrimeiroFilho.innerHTML = 'Esse é meu primeiro filho'
+// const corPrimeiroFilho = document.getElementById('primeiroFilho');
+// corPrimeiroFilho.innerHTML = 'Esse é meu primeiro filho'
 
-console.log(pai.firstElementChild);
-
-
-console.log(ondeEuEstou.previousElementSibling);
-
-console.log(ondeEuEstou.nextSibling)
+// console.log(pai.firstElementChild);
+// console.log(ondeEuEstou.previousElementSibling);
+// console.log(ondeEuEstou.nextSibling)

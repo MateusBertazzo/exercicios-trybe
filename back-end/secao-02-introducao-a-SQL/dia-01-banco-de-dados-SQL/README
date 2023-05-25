@@ -1,0 +1,40 @@
+Exercicios Dia-01-BANCO-DE-DADOS-SQL
+
+Exercício 1: Descubra como fazer uma pesquisa em qualquer tabela sem utilizar uma linha de código usando o MySql Workbench.
+- Solução: Basta clicar com botão direito na tabela e clicar em “select rows - limit 200”
+
+Exercício 2: Descubra como é possível criar uma tabela sem usar código SQL usando o MySql Workbench.
+- Solução: Na barra lateral esquerda, clicar em tables com o botão direito e em seguida clicar em Create Table.
+
+Exercício 3: Feito isso, crie uma tabela com as seguintes restrições:
+Nome da tabela: filme
+
+Colunas:
+
+filme_id - primary key, tipo int, incrementa por 1 cada vez que um valor é inserido automaticamente;
+descricao - não permite nulos, tipo texto (varchar(100));
+ano_lancamento - não permite nulos, tipo int;
+nota - permite nulos, tipo int;
+
+- Solução: preencha o nome da tabela;
+1- preencha o nome da tabela; 
+2- adicione os campos solicitados com   suas  devidas restrições;
+3- clique em Apply
+
+Exercício 4: Analise a tabela city e encontre a tabela à qual a coluna country_id faz referência.
+
+- Solução
+
+Ela faz referência à tabela country.
+
+Exercício 5: Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country?
+
+- Solução
+
+N:1
+
+Exercício 6: Qual tipo de relacionamento a tabela country faz com a tabela city?
+
+- Solução
+
+1:N
